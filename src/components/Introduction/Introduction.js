@@ -23,7 +23,13 @@ function Introduction() {
                                 </SubHeading>
 
                                 <Form>
-                                    <Button fontBig>No link</Button>
+                                    <Button 
+                                        fontBig
+                                        onClick={ (e) => {
+                                            e.preventDefault();
+                                            window.location.href = "https://twitter.com/De_Keys_";
+                                        }}
+                                    >Twitter</Button>
                                 </Form>
                             </SubSection>
                         </TextWrapper>
