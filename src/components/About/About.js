@@ -9,7 +9,7 @@ function About() {
                     <Row imgStart={true}>
                         <Column>
                             <TextWrapper>
-                                <Heading lightText={false}>How that works?</Heading>
+                                <Heading lightText={false}>How That Works?</Heading>
                                 <SubHeading lightText={false}>
                                     <strong>1. Create an Account</strong>
                                     <br/>

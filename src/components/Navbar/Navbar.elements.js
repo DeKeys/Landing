@@ -3,7 +3,7 @@ import { Container } from '../../styles'
 import { Link } from 'react-router-dom'
 
 export const Nav = styled.nav`
-    background: #101522;
+    background: #140657;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -84,7 +84,6 @@ export const NavItem = styled.li`
     }
 
 `
-
 export const NavLinks = styled(Link)`
     color: #fff;
     display: flex;
@@ -106,7 +105,6 @@ export const NavLinks = styled(Link)`
         }
     }
 `
-
 export const NavItemBtn = styled.li`
     @media screen and (max-width: 960px) {
         display: flex;

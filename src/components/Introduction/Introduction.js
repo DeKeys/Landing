@@ -11,15 +11,19 @@ function Introduction() {
                         <TextWrapper>
                             <TopLine lightTopLine={true}>It's Decentralized and Free For Everyone!</TopLine>
                             <Heading lightText={true}>Password Manager of the Future</Heading>
-                            <Subtitle lightTextDesc={true}>Open-source, No-charge & Safe</Subtitle>
                             
                             <SubSection>
                                 <SubHeading lightText={true}>
-                                    Try it out! Download the app from AppStore.
+                                    You can download the client for Desktop on our GitHub.
+
+                                    <br/>
+                                    <br/>
+
+                                    <strong>We are currently working on an IOS app..</strong>
                                 </SubHeading>
 
                                 <Form>
-                                    <Button fontBig>Get App</Button>
+                                    <Button fontBig>No link</Button>
                                 </Form>
                             </SubSection>
                         </TextWrapper>
@@ -27,7 +31,7 @@ function Introduction() {
                         
                     <Column>
                         <ImgWrapper start={false}>
-                            <Img src={require("../../images/subscribe.png")} alt={""} />
+                            <Img src={require("../../images/logo.png")} alt={""} />
                         </ImgWrapper>
                     </Column>
                 </Row>

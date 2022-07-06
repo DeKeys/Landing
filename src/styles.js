@@ -43,7 +43,7 @@ export const Container = styled.div`
 export const Section = styled.div`
   color: #fff;
   padding: 160px 0;
-  background: ${({lightBg}) => (lightBg ? '#fff' : '#101522')};
+  background: ${({lightBg}) => (lightBg ? '#fff' : '#140657')};
 `;
 
 // row
@@ -60,9 +60,6 @@ export const Column = styled.div`
   margin-bottom: 15px;
   padding-right: 15px;
   padding-left: 15px;
-  flex: 1;
-  max-width: 50%;
-  flex-basis: 50%;
 
   @media (min-width: 480px) and (max-width: 1200px) {
     max-width: 100%;
@@ -154,7 +151,7 @@ export const Button = styled.button`
   justify-content: center;
   align-items: center;
   border-radius: 4px;
-  background: ${({ primary }) => (primary ? '#4B59F7' : '#0467FB')};
+  background: ${({ primary }) => (primary ? '#3D3DF3' : '#3D3DF3')};
   white-space: nowrap;
   padding: ${({ big }) => (big ? '12px 64px' : '10px 20px')};
   color: #fff;

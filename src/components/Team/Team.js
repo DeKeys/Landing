@@ -1,25 +1,63 @@
 import React from "react";
-import { Section, Container, Row, Column, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img, Button } from "../../styles";
+import { Section, Container, Row, Column, TextWrapper, TopLine, Heading, SubHeading, Subtitle, ImgWrapper, Img, Button } from "../../styles";
 
 function Team() {
     return (
         <Section lightBg={true}>
             <Container>
-                <Row imgStart={true}>
-                    <Column>
-                        <TextWrapper>
-                            <TopLine lightTopLine={false}>Meet the Team</TopLine>
-                            <Heading lightText={false}>Who made revolution in Password Management!</Heading>
-                            <Subtitle lightTextDesc={false}>Middle --</Subtitle>
-                        </TextWrapper>
-                    </Column>
-                        
+                <Column>
+                    <TextWrapper>
+                        <TopLine lightTopLine={false}>Meet the Team</TopLine>
+                        <Heading lightText={false}>We made a revolution!</Heading>
+                    </TextWrapper>
+                </Column>
+                  
+                <Row>  
                     <Column>
                         <ImgWrapper start={true}>
-                            <Img src={require("../../images/profile.jpg")} alt={""} />
+                            <Img src={require("../../images/Roman.jpeg")} width="200px" height="200px" style={{
+                                objectFit: "cover",
+                                borderRadius: 24
+                            }} alt={""} />
                         </ImgWrapper>
-                    </Column>
-                </Row>
+
+                        <br/>
+
+                        <SubHeading>
+                           <strong>Roman Rakhlin</strong>
+                        </SubHeading>
+                    </Column> 
+
+                    <Column>
+                        <ImgWrapper start={true}>
+                            <Img src={require("../../images/Andrew.jpeg")} width="200px" height="200px" style={{
+                                objectFit: "cover",
+                                borderRadius: 24
+                            }} alt={""} />
+                        </ImgWrapper>
+
+                        <br/>
+
+                        <SubHeading>
+                            <strong>Andrew Trofimov</strong>
+                        </SubHeading>
+                    </Column> 
+
+                    <Column>
+                        <ImgWrapper start={true}>
+                            <Img src={require("../../images/Oleg.jpeg")} width="200px" height="200px" style={{
+                                objectFit: "cover",
+                                borderRadius: 24
+                            }} alt={""} />
+                        </ImgWrapper>
+
+                        <br/>
+
+                        <SubHeading>
+                            <strong>Oleg Rybalko</strong>
+                        </SubHeading>
+                    </Column> 
+                </Row>   
             </Container>
         </Section>
     );
