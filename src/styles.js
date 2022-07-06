@@ -60,6 +60,7 @@ export const Column = styled.div`
   margin-bottom: 15px;
   padding-right: 15px;
   padding-left: 15px;
+  max-width: 50%;
 
   @media (min-width: 480px) and (max-width: 1200px) {
     max-width: 100%;

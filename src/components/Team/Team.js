@@ -15,7 +15,7 @@ function Team() {
                 <Row>  
                     <Column>
                         <ImgWrapper start={true}>
-                            <Img src={require("../../images/Roman.jpeg")} width="200px" height="200px" style={{
+                            <Img src={require("../../images/Roman.jpeg")} width="340px" height="340px" style={{
                                 objectFit: "cover",
                                 borderRadius: 24
                             }} alt={""} />
@@ -30,7 +30,7 @@ function Team() {
 
                     <Column>
                         <ImgWrapper start={true}>
-                            <Img src={require("../../images/Andrew.jpeg")} width="200px" height="200px" style={{
+                            <Img src={require("../../images/Andrew.jpeg")} width="340px" height="340px" style={{
                                 objectFit: "cover",
                                 borderRadius: 24
                             }} alt={""} />
@@ -45,7 +45,7 @@ function Team() {
 
                     <Column>
                         <ImgWrapper start={true}>
-                            <Img src={require("../../images/Oleg.jpeg")} width="200px" height="200px" style={{
+                            <Img src={require("../../images/Oleg.jpeg")} width="340px" height="340px" style={{
                                 objectFit: "cover",
                                 borderRadius: 24
                             }} alt={""} />
